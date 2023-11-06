@@ -6,7 +6,7 @@ import {
 } from '@novu/stateless';
 
 import { Message } from 'messagebird/types/messages';
-import { initClient } from 'messagebird';
+import { initClient } from 'messagebird ';
 
 export class MessageBirdSmsProvider implements ISmsProvider {
   id = 'messagebird';
